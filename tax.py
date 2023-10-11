@@ -7,11 +7,11 @@ import constants
 
 
 def main():
-    # get the diameter
+    # get the subtotal
     print("Calculating the Tax and Total using the Subtotal")
     subtotal = float(input("What is the subtotal of your item in dollars?"))
 
-    # calculate the subtotal, tax, and total cost
+    # calculate tax and total cost
     tax = constants.HST * subtotal
     total = subtotal + tax
 
